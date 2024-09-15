@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+    
+.caixa-pesquisa{
+    display: flex;
+    margin-top: 20px;  
+    width: 500px;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 1);
+    padding: 25px;
+    background-color: #30475E;
+}
+body{
+    background-color: aquamarine;
+    font-family: "Chakra Petch", sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    background-color: aliceblue;
+    padding: 10px;
+    
+}
+h2{
+    text-align: center;
+}
+section input{
+    padding: 1rem;
+    width: 30rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+section button{
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    background-color: #507fad;
+    color: white;
+    border: none;
+    margin-left: 1rem;
+    transition-duration: 0,3s;
+}
+section button:hover {
+    background-color: #000000; 
+    box-shadow: 0 6px 10px rgba(255, 255, 255, 0.2); 
+    cursor: pointer
+}
+.resultados-cep{
+    padding: 20px;
+    width: 500px;
+    margin-top: 1rem;
+    height: 300px;
+}
+h1{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
