@@ -12,6 +12,7 @@ function buscar_cep(){
     }
     let url = `https://viacep.com.br/ws/${campoPesquisa}/json/`;
     console.log(url);
+
     fetch(url)
     .then(response => response.json())
     .then(data => {
